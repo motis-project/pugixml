@@ -1,4 +1,4 @@
-pugixml [![Build Status](https://travis-ci.org/zeux/pugixml.svg?branch=master)](https://travis-ci.org/zeux/pugixml) [![Build status](https://ci.appveyor.com/api/projects/status/9hdks1doqvq8pwe7/branch/master?svg=true)](https://ci.appveyor.com/project/zeux/pugixml) [![codecov.io](https://codecov.io/github/zeux/pugixml/coverage.svg?branch=master)](https://codecov.io/github/zeux/pugixml?branch=master) ![MIT](https://img.shields.io/badge/license-MIT-blue.svg)
+pugixml [![Actions Status](https://github.com/zeux/pugixml/workflows/build/badge.svg)](https://github.com/zeux/pugixml/actions) [![Build status](https://ci.appveyor.com/api/projects/status/9hdks1doqvq8pwe7/branch/master?svg=true)](https://ci.appveyor.com/project/zeux/pugixml) [![codecov.io](https://codecov.io/github/zeux/pugixml/coverage.svg?branch=master)](https://codecov.io/github/zeux/pugixml?branch=master) ![MIT](https://img.shields.io/badge/license-MIT-blue.svg)
 =======
 
 pugixml is a C++ XML processing library, which consists of a DOM-like interface with rich traversal/modification
@@ -70,3 +70,12 @@ int main()
 ## License
 
 This library is available to anybody free of charge, under the terms of MIT License (see LICENSE.md).
+
+This work is based on the pugxml parser, which carried the following Public Domain dedication:
+
+    // Pug XML Parser - Version 1.0002
+    // --------------------------------------------------------
+    // Copyright (C) 2003, by Kristen Wegner (kristen@tima.net)
+    // Released into the Public Domain. Use at your own risk.
+    // See pugxml.xml for further information, history, etc.
+    // Contributions by Neville Franks (readonly@getsoft.com).
